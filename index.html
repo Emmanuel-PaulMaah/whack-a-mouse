@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>Whack-a-Mole)</title>
+    <meta name="description" content="place a 3x3 grid on the floor and whack popping moles. webxr + three.js." />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="ui">
+      <div id="hud">
+        <div class="row"><span>score:</span><strong id="score">0</strong></div>
+        <div class="row"><span>streak:</span><strong id="streak">0</strong></div>
+        <div class="row small" id="status">find a floor, then tap to place the grid.</div>
+      </div>
+
+      <div id="controls">
+        <button id="reset">reset</button>
+        <button id="pause">pause</button>
+      </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
